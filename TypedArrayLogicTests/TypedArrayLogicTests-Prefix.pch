@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'TypedArrayLogicTests' target in the 'TypedArrayLogicTests' project
+//
+
+#ifdef __OBJC__
+  #import <Foundation/Foundation.h>
+  #import <CoreGraphics/CoreGraphics.h>
+#endif

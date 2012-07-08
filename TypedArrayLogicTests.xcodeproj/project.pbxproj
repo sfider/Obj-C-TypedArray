@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		718831CB15AA0B8E00999716 /* TypedArrayLogicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 718831CA15AA0B8E00999716 /* TypedArrayLogicTests.m */; };
+		718831D215AA0C3A00999716 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718831D015AA0C2800999716 /* SenTestingKit.framework */; };
+		718831D415AA0C4200999716 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718831D315AA0C4200999716 /* Foundation.framework */; };
+		718831D615AA0C5300999716 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718831D515AA0C5300999716 /* CoreGraphics.framework */; };
+		718831EF15AA0C8A00999716 /* LOOBoolArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 718831D915AA0C8A00999716 /* LOOBoolArray.m */; };
+		718831F015AA0C8A00999716 /* LOOByteArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 718831DB15AA0C8A00999716 /* LOOByteArray.m */; };
+		718831F115AA0C8A00999716 /* LOOCGFloatArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 718831DD15AA0C8A00999716 /* LOOCGFloatArray.m */; };
+		718831F215AA0C8A00999716 /* LOOCGPointArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 718831DF15AA0C8A00999716 /* LOOCGPointArray.m */; };
+		718831F315AA0C8A00999716 /* LOOCGRectArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 718831E115AA0C8A00999716 /* LOOCGRectArray.m */; };
+		718831F415AA0C8A00999716 /* LOOCGSizeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 718831E315AA0C8A00999716 /* LOOCGSizeArray.m */; };
+		718831F515AA0C8A00999716 /* LOONSIntegerArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 718831E515AA0C8A00999716 /* LOONSIntegerArray.m */; };
+		718831F615AA0C8A00999716 /* LOOTypedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 718831E715AA0C8A00999716 /* LOOTypedArray.m */; };
+		718831F715AA0C8A00999716 /* LOOUInt8Array.m in Sources */ = {isa = PBXBuildFile; fileRef = 718831EA15AA0C8A00999716 /* LOOUInt8Array.m */; };
+		718831F815AA0C8A00999716 /* LOOUInt16Array.m in Sources */ = {isa = PBXBuildFile; fileRef = 718831EC15AA0C8A00999716 /* LOOUInt16Array.m */; };
+		718831F915AA0C8A00999716 /* LOOUnicharArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 718831EE15AA0C8A00999716 /* LOOUnicharArray.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		718831BA15AA0B8D00999716 /* TypedArrayLogicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TypedArrayLogicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		718831C515AA0B8E00999716 /* TypedArrayLogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TypedArrayLogicTests-Info.plist"; sourceTree = "<group>"; };
+		718831C915AA0B8E00999716 /* TypedArrayLogicTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TypedArrayLogicTests.h; sourceTree = "<group>"; };
+		718831CA15AA0B8E00999716 /* TypedArrayLogicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TypedArrayLogicTests.m; sourceTree = "<group>"; };
+		718831CC15AA0B8E00999716 /* TypedArrayLogicTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TypedArrayLogicTests-Prefix.pch"; sourceTree = "<group>"; };
+		718831D015AA0C2800999716 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		718831D315AA0C4200999716 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		718831D515AA0C5300999716 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		718831D815AA0C8A00999716 /* LOOBoolArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LOOBoolArray.h; path = Classes/LOOBoolArray.h; sourceTree = "<group>"; };
+		718831D915AA0C8A00999716 /* LOOBoolArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LOOBoolArray.m; path = Classes/LOOBoolArray.m; sourceTree = "<group>"; };
+		718831DA15AA0C8A00999716 /* LOOByteArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LOOByteArray.h; path = Classes/LOOByteArray.h; sourceTree = "<group>"; };
+		718831DB15AA0C8A00999716 /* LOOByteArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LOOByteArray.m; path = Classes/LOOByteArray.m; sourceTree = "<group>"; };
+		718831DC15AA0C8A00999716 /* LOOCGFloatArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LOOCGFloatArray.h; path = Classes/LOOCGFloatArray.h; sourceTree = "<group>"; };
+		718831DD15AA0C8A00999716 /* LOOCGFloatArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LOOCGFloatArray.m; path = Classes/LOOCGFloatArray.m; sourceTree = "<group>"; };
+		718831DE15AA0C8A00999716 /* LOOCGPointArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LOOCGPointArray.h; path = Classes/LOOCGPointArray.h; sourceTree = "<group>"; };
+		718831DF15AA0C8A00999716 /* LOOCGPointArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LOOCGPointArray.m; path = Classes/LOOCGPointArray.m; sourceTree = "<group>"; };
+		718831E015AA0C8A00999716 /* LOOCGRectArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LOOCGRectArray.h; path = Classes/LOOCGRectArray.h; sourceTree = "<group>"; };
+		718831E115AA0C8A00999716 /* LOOCGRectArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LOOCGRectArray.m; path = Classes/LOOCGRectArray.m; sourceTree = "<group>"; };
+		718831E215AA0C8A00999716 /* LOOCGSizeArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LOOCGSizeArray.h; path = Classes/LOOCGSizeArray.h; sourceTree = "<group>"; };
+		718831E315AA0C8A00999716 /* LOOCGSizeArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LOOCGSizeArray.m; path = Classes/LOOCGSizeArray.m; sourceTree = "<group>"; };
+		718831E415AA0C8A00999716 /* LOONSIntegerArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LOONSIntegerArray.h; path = Classes/LOONSIntegerArray.h; sourceTree = "<group>"; };
+		718831E515AA0C8A00999716 /* LOONSIntegerArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LOONSIntegerArray.m; path = Classes/LOONSIntegerArray.m; sourceTree = "<group>"; };
+		718831E615AA0C8A00999716 /* LOOTypedArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LOOTypedArray.h; path = Classes/LOOTypedArray.h; sourceTree = "<group>"; };
+		718831E715AA0C8A00999716 /* LOOTypedArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LOOTypedArray.m; path = Classes/LOOTypedArray.m; sourceTree = "<group>"; };
+		718831E815AA0C8A00999716 /* LOOTypedArray+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "LOOTypedArray+Protected.h"; path = "Classes/LOOTypedArray+Protected.h"; sourceTree = "<group>"; };
+		718831E915AA0C8A00999716 /* LOOUInt8Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LOOUInt8Array.h; path = Classes/LOOUInt8Array.h; sourceTree = "<group>"; };
+		718831EA15AA0C8A00999716 /* LOOUInt8Array.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LOOUInt8Array.m; path = Classes/LOOUInt8Array.m; sourceTree = "<group>"; };
+		718831EB15AA0C8A00999716 /* LOOUInt16Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LOOUInt16Array.h; path = Classes/LOOUInt16Array.h; sourceTree = "<group>"; };
+		718831EC15AA0C8A00999716 /* LOOUInt16Array.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LOOUInt16Array.m; path = Classes/LOOUInt16Array.m; sourceTree = "<group>"; };
+		718831ED15AA0C8A00999716 /* LOOUnicharArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LOOUnicharArray.h; path = Classes/LOOUnicharArray.h; sourceTree = "<group>"; };
+		718831EE15AA0C8A00999716 /* LOOUnicharArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LOOUnicharArray.m; path = Classes/LOOUnicharArray.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		718831B615AA0B8D00999716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				718831D615AA0C5300999716 /* CoreGraphics.framework in Frameworks */,
+				718831D415AA0C4200999716 /* Foundation.framework in Frameworks */,
+				718831D215AA0C3A00999716 /* SenTestingKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		718831A415AA0AFA00999716 = {
+			isa = PBXGroup;
+			children = (
+				718831D715AA0C7900999716 /* TypedArray */,
+				718831C315AA0B8E00999716 /* TypedArrayLogicTests */,
+				718831BC15AA0B8D00999716 /* Frameworks */,
+				718831BB15AA0B8D00999716 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		718831BB15AA0B8D00999716 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				718831BA15AA0B8D00999716 /* TypedArrayLogicTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		718831BC15AA0B8D00999716 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				718831D515AA0C5300999716 /* CoreGraphics.framework */,
+				718831D315AA0C4200999716 /* Foundation.framework */,
+				718831D015AA0C2800999716 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		718831C315AA0B8E00999716 /* TypedArrayLogicTests */ = {
+			isa = PBXGroup;
+			children = (
+				718831C915AA0B8E00999716 /* TypedArrayLogicTests.h */,
+				718831CA15AA0B8E00999716 /* TypedArrayLogicTests.m */,
+				718831C415AA0B8E00999716 /* Supporting Files */,
+			);
+			path = TypedArrayLogicTests;
+			sourceTree = "<group>";
+		};
+		718831C415AA0B8E00999716 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				718831C515AA0B8E00999716 /* TypedArrayLogicTests-Info.plist */,
+				718831CC15AA0B8E00999716 /* TypedArrayLogicTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		718831D715AA0C7900999716 /* TypedArray */ = {
+			isa = PBXGroup;
+			children = (
+				718831D815AA0C8A00999716 /* LOOBoolArray.h */,
+				718831D915AA0C8A00999716 /* LOOBoolArray.m */,
+				718831DA15AA0C8A00999716 /* LOOByteArray.h */,
+				718831DB15AA0C8A00999716 /* LOOByteArray.m */,
+				718831DC15AA0C8A00999716 /* LOOCGFloatArray.h */,
+				718831DD15AA0C8A00999716 /* LOOCGFloatArray.m */,
+				718831DE15AA0C8A00999716 /* LOOCGPointArray.h */,
+				718831DF15AA0C8A00999716 /* LOOCGPointArray.m */,
+				718831E015AA0C8A00999716 /* LOOCGRectArray.h */,
+				718831E115AA0C8A00999716 /* LOOCGRectArray.m */,
+				718831E215AA0C8A00999716 /* LOOCGSizeArray.h */,
+				718831E315AA0C8A00999716 /* LOOCGSizeArray.m */,
+				718831E415AA0C8A00999716 /* LOONSIntegerArray.h */,
+				718831E515AA0C8A00999716 /* LOONSIntegerArray.m */,
+				718831E615AA0C8A00999716 /* LOOTypedArray.h */,
+				718831E715AA0C8A00999716 /* LOOTypedArray.m */,
+				718831E815AA0C8A00999716 /* LOOTypedArray+Protected.h */,
+				718831E915AA0C8A00999716 /* LOOUInt8Array.h */,
+				718831EA15AA0C8A00999716 /* LOOUInt8Array.m */,
+				718831EB15AA0C8A00999716 /* LOOUInt16Array.h */,
+				718831EC15AA0C8A00999716 /* LOOUInt16Array.m */,
+				718831ED15AA0C8A00999716 /* LOOUnicharArray.h */,
+				718831EE15AA0C8A00999716 /* LOOUnicharArray.m */,
+			);
+			name = TypedArray;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		718831B915AA0B8D00999716 /* TypedArrayLogicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 718831CD15AA0B8E00999716 /* Build configuration list for PBXNativeTarget "TypedArrayLogicTests" */;
+			buildPhases = (
+				718831B515AA0B8D00999716 /* Sources */,
+				718831B615AA0B8D00999716 /* Frameworks */,
+				718831B715AA0B8D00999716 /* Resources */,
+				718831B815AA0B8D00999716 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TypedArrayLogicTests;
+			productName = TypedArrayLogicTests;
+			productReference = 718831BA15AA0B8D00999716 /* TypedArrayLogicTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		718831A615AA0AFA00999716 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "LoonyWare Marcin Świderski";
+			};
+			buildConfigurationList = 718831A915AA0AFA00999716 /* Build configuration list for PBXProject "TypedArrayLogicTests" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 718831A415AA0AFA00999716;
+			productRefGroup = 718831BB15AA0B8D00999716 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				718831B915AA0B8D00999716 /* TypedArrayLogicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		718831B715AA0B8D00999716 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		718831B815AA0B8D00999716 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		718831B515AA0B8D00999716 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				718831CB15AA0B8E00999716 /* TypedArrayLogicTests.m in Sources */,
+				718831EF15AA0C8A00999716 /* LOOBoolArray.m in Sources */,
+				718831F015AA0C8A00999716 /* LOOByteArray.m in Sources */,
+				718831F115AA0C8A00999716 /* LOOCGFloatArray.m in Sources */,
+				718831F215AA0C8A00999716 /* LOOCGPointArray.m in Sources */,
+				718831F315AA0C8A00999716 /* LOOCGRectArray.m in Sources */,
+				718831F415AA0C8A00999716 /* LOOCGSizeArray.m in Sources */,
+				718831F515AA0C8A00999716 /* LOONSIntegerArray.m in Sources */,
+				718831F615AA0C8A00999716 /* LOOTypedArray.m in Sources */,
+				718831F715AA0C8A00999716 /* LOOUInt8Array.m in Sources */,
+				718831F815AA0C8A00999716 /* LOOUInt16Array.m in Sources */,
+				718831F915AA0C8A00999716 /* LOOUnicharArray.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		718831AB15AA0AFA00999716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		718831AC15AA0AFA00999716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		718831CE15AA0B8E00999716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TypedArrayLogicTests/TypedArrayLogicTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "TypedArrayLogicTests/TypedArrayLogicTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		718831CF15AA0B8E00999716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TypedArrayLogicTests/TypedArrayLogicTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "TypedArrayLogicTests/TypedArrayLogicTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		718831A915AA0AFA00999716 /* Build configuration list for PBXProject "TypedArrayLogicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				718831AB15AA0AFA00999716 /* Debug */,
+				718831AC15AA0AFA00999716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		718831CD15AA0B8E00999716 /* Build configuration list for PBXNativeTarget "TypedArrayLogicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				718831CE15AA0B8E00999716 /* Debug */,
+				718831CF15AA0B8E00999716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 718831A615AA0AFA00999716 /* Project object */;
+}
